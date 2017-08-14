@@ -1,0 +1,26 @@
+/* reset all and vertical align to top */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* set website wrapper */
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title,
+.time{
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.time{
+    width: 500px;
+}
+.title{
+    width: 300px;
+}
